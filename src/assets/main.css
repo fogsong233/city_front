@@ -1,0 +1,17 @@
+@import "./base.css";
+
+@import "primeicons/primeicons.css";
+
+.auto-hide-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
