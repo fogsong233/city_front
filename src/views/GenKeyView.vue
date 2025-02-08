@@ -16,7 +16,7 @@ function genKey() {
   const wallet = ethers.Wallet.createRandom();
   // 计算公钥(非压缩格式):
   priKey.value = wallet.privateKey;
-  pubKey.value = wallet.publicKey;
+  pubKey.value = wallet.signingKey.publicKey;
   dialogVisible.value = true;
 }
 </script>
